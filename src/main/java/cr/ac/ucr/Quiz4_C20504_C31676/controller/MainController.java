@@ -15,7 +15,39 @@ public class MainController implements ActionListener{
 
     @Override
     public void actionPerformed(ActionEvent e) {
-
+        switch (e.getActionCommand()) {
+            case "btnOrigin":
+                
+                break;
+                
+            case "btnScale":
+                
+                break;
+                
+            case "btnSave":
+                
+                break;
+                
+            case "btnDelete":
+                
+                break;
+                
+            case "btnSearch":
+                
+                break;
+                
+            case "btnPresets":
+                
+                break;
+                
+            case "btnDiference":
+                
+                break;
+                
+            
+            default:
+                throw new AssertionError();
+        }
     }
     
 }
