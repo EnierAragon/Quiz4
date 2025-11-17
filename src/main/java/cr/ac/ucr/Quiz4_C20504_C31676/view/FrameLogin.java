@@ -25,8 +25,8 @@ public class FrameLogin extends javax.swing.JFrame {
         this.btnResgister.addActionListener(listen);
     }
 
-    public JTextField getTxtUser() {
-        return txtUser;
+    public String getTxtUser() {
+        return txtUser.getText();
     }
     
     
