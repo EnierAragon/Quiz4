@@ -3,7 +3,7 @@
  */
 package cr.ac.ucr.Quiz4_C20504_C31676;
 
-import cr.ac.ucr.Quiz4_C20504_C31676.controller.ControllerVew.ControllerCalcScream;
+import cr.ac.ucr.Quiz4_C20504_C31676.controller.ControllerMain;
 
 /**
  *
@@ -12,7 +12,7 @@ import cr.ac.ucr.Quiz4_C20504_C31676.controller.ControllerVew.ControllerCalcScre
 public class Quiz4C20504 {
 
     public static void main(String[] args) {
-        new ControllerCalcScream();
+        new ControllerMain();
     }
 
 }
