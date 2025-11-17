@@ -35,7 +35,9 @@ public class Scream {
         this.resOrigin = resOrigin;
     }
 
-    public int getDiference() {
+    public double getDiference() {
+        double areaOrigin;
+        double areaNew;
         
         return 0;
     }
