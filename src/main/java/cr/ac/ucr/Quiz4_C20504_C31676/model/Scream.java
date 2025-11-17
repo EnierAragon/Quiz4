@@ -36,12 +36,11 @@ public class Scream {
     }
 
     public double getDiference() {
-        double areaOrigin;
-        double areaNew;
-        
-        
-        
-        return 0;
+        double areaOrigin = resOrigin.getWidth() * resOrigin.getHeight();
+        double areaNew = resNew.getWidth() * resNew.getHeight();
+        double areaDif = areaNew - areaOrigin;
+
+        return areaDif / areaNew;
     }
 
     public Dimension getRescaledDimension() {
