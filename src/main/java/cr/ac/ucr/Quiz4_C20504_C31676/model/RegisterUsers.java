@@ -21,7 +21,12 @@ public class RegisterUsers {
     }
     
     public void Resgister(String name) {
-        
+        for (int i = 0; i < users.length; i++) {
+            if (users[i] == null) {
+                
+            }
+        }
+ 
     }
     
 

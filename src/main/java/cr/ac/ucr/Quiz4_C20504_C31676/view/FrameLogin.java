@@ -5,7 +5,6 @@
 package cr.ac.ucr.Quiz4_C20504_C31676.view;
 
 import java.awt.event.ActionListener;
-import javax.swing.JTextField;
 
 /**
  *
