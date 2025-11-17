@@ -5,6 +5,7 @@
 package cr.ac.ucr.Quiz4_C20504_C31676.view;
 
 import java.awt.event.ActionListener;
+import javax.swing.JTextField;
 
 /**
  *
@@ -23,6 +24,12 @@ public class FrameLogin extends javax.swing.JFrame {
         this.btnLogin.addActionListener(listen);
         this.btnResgister.addActionListener(listen);
     }
+
+    public JTextField getTxtUser() {
+        return txtUser;
+    }
+    
+    
 
     /**
      * This method is called from within the constructor to initialize the form.

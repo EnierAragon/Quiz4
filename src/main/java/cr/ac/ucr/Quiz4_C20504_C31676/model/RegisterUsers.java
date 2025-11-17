@@ -19,5 +19,10 @@ public class RegisterUsers {
     public void setUser(String name, int pos) {
         users[pos] = new User(name);
     }
+    
+    public void Resgister(String name) {
+          
+    }
+    
 
 }
