@@ -4,6 +4,8 @@
  */
 package cr.ac.ucr.Quiz4_C20504_C31676.view;
 
+import java.awt.event.ActionListener;
+
 /**
  *
  * @author hjcar
@@ -15,6 +17,11 @@ public class Login extends javax.swing.JFrame {
      */
     public Login() {
         initComponents();
+    }
+    
+    public void listen(ActionListener listen) {
+        this.btnLogin.addActionListener(listen);
+        this.btnResgister.addActionListener(listen);
     }
 
     /**

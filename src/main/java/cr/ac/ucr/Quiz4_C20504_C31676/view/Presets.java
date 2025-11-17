@@ -4,6 +4,8 @@
  */
 package cr.ac.ucr.Quiz4_C20504_C31676.view;
 
+import java.awt.event.ActionListener;
+
 /**
  *
  * @author hjcar
@@ -16,6 +18,10 @@ public class Presets extends javax.swing.JFrame {
      */
     public Presets() {
         initComponents();
+    }
+    
+    public void listen(ActionListener listen) {
+        this.btnAceptar.addActionListener(listen);
     }
 
     /**
@@ -101,9 +107,9 @@ public class Presets extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(20, 20, 20)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel1))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(rbtn800x600)
