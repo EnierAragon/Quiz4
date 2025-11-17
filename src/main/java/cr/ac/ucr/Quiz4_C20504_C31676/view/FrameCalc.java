@@ -5,18 +5,68 @@
 package cr.ac.ucr.Quiz4_C20504_C31676.view;
 
 import java.awt.event.ActionListener;
+import javax.swing.JOptionPane;
 
 /**
  *
  * @author hjcar
  */
 public class FrameCalc extends javax.swing.JFrame {
-    
+
     /**
      * Creates new form ScreenMain
      */
     public FrameCalc() {
         initComponents();
+    }
+    
+    public int getTextID() {
+        int id = 0;
+        
+        try {
+            id = Integer.parseInt(txtID.getText());
+        } catch (NumberFormatException e) {
+            msg("El ID debe ser un numero entero");
+        }
+        
+        return id;
+        
+    }
+    
+    public int getTextX() {
+        int x = 0;
+        
+        try {
+            x = Integer.parseInt(txtResolutionX.getText());
+        } catch (NumberFormatException e) {
+            msg("El ancho debe ser un numero entero");
+        }
+        
+        return x;
+    }
+    
+    public int getTextY() {
+        int y = 0;
+        
+        try {
+            y = Integer.parseInt(txtResolutionY.getText());
+        } catch (NumberFormatException e) {
+            msg("El alto debe ser un numero entero");
+        }
+        
+        return y;
+    }
+    
+    public void setTextID(String text) {
+        txtID.setText(text);
+    }
+    
+    public void setTextX(String text) {
+        txtResolutionX.setText(text);
+    }
+    
+    public void setTextY(String text) {
+        txtResolutionY.setText(text);
     }
     
     public void listen(ActionListener listen) {
@@ -29,7 +79,9 @@ public class FrameCalc extends javax.swing.JFrame {
         this.btnDiference.addActionListener(listen);
     }
     
-    
+    public void msg(String text) {
+        JOptionPane.showInternalMessageDialog(rootPane, text);
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
