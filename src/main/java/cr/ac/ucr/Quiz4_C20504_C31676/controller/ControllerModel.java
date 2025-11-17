@@ -4,10 +4,18 @@
  */
 package cr.ac.ucr.Quiz4_C20504_C31676.controller;
 
+import cr.ac.ucr.Quiz4_C20504_C31676.model.RegisterUsers;
+
 /**
  *
  * @author enier
  */
 public class ControllerModel {
-    
+
+    RegisterUsers mUser;
+
+    public ControllerModel(RegisterUsers mUser) {
+        this.mUser = mUser;
+    }
+
 }

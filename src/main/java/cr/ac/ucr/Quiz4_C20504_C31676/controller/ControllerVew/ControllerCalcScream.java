@@ -4,6 +4,7 @@
  */
 package cr.ac.ucr.Quiz4_C20504_C31676.controller.ControllerVew;
 
+import cr.ac.ucr.Quiz4_C20504_C31676.controller.ControllerModel;
 import cr.ac.ucr.Quiz4_C20504_C31676.view.FrameCalc;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -15,14 +16,16 @@ import java.awt.event.ActionListener;
 public class ControllerCalcScream implements ActionListener {
 
     FrameCalc screamCalc;
+    ControllerModel cModel;
 
-    public ControllerCalcScream() {
-        initComponets();
+    public ControllerCalcScream(FrameCalc fCacl, ControllerModel cCalc) {
+        initComponets(fCacl, cCalc);
         screamCalc.listen(this);
     }
 
-    private void initComponets() {
-        screamCalc = new FrameCalc();
+    private void initComponets(FrameCalc fCalc, ControllerModel cCalc) {
+        screamCalc = fCalc;
+        cModel = cCalc;
     }
 
     @Override

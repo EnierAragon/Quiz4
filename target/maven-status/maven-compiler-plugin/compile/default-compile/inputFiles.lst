@@ -1,10 +1,13 @@
 /home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/Quiz4C20504.java
-/home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/controller/MainController.java
+/home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/controller/ControllerMain.java
+/home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/controller/ControllerModel.java
+/home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/controller/ControllerVew/ControllerCalcScream.java
+/home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/controller/ControllerVew/ControllerLogin.java
 /home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/model/DataScreams.java
 /home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/model/RegisterUsers.java
 /home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/model/Scream.java
 /home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/model/User.java
-/home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/view/Login.java
+/home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/view/FrameCalc.java
+/home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/view/FrameLogin.java
+/home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/view/FramePresets.java
 /home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/view/PanelState.java
-/home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/view/Presets.java
-/home/enier/NetBeansProjects/Quiz4C20504/src/main/java/cr/ac/ucr/Quiz4_C20504_C31676/view/ScreenMain.java

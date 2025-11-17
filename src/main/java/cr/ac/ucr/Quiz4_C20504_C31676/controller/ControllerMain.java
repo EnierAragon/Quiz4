@@ -31,6 +31,17 @@ public class ControllerMain {
     ControllerModel cModel;
 
     public ControllerMain() {
+
+        fLogins = new FrameLogin();
+        fCalcs = new FrameCalc();
+        fPresets = new FramePresets();
+
+        users = new RegisterUsers();
+
+        cLogin = new ControllerLogin(fLogins, users);
+        cCalc = new ControllerCalcScream(fCalcs, cModel);
+        cModel = new ControllerModel(users);
+
     }
 
 }
