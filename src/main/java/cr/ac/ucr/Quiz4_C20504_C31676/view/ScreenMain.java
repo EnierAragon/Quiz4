@@ -4,6 +4,8 @@
  */
 package cr.ac.ucr.Quiz4_C20504_C31676.view;
 
+import java.awt.event.ActionListener;
+
 /**
  *
  * @author hjcar
@@ -16,6 +18,18 @@ public class ScreenMain extends javax.swing.JFrame {
     public ScreenMain() {
         initComponents();
     }
+    
+    public void listen(ActionListener listen) {
+        this.btnOrigin.addActionListener(listen);
+        this.btnScale.addActionListener(listen);
+        this.btnSave.addActionListener(listen);
+        this.btnDelete.addActionListener(listen);
+        this.btnSearch.addActionListener(listen);
+        this.btnPresets.addActionListener(listen);
+        this.btnDiference.addActionListener(listen);
+    }
+    
+    
 
     /**
      * This method is called from within the constructor to initialize the form.

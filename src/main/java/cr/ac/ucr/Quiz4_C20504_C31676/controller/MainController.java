@@ -4,10 +4,18 @@
  */
 package cr.ac.ucr.Quiz4_C20504_C31676.controller;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 /**
  *
  * @author enier
  */
-public class MainController {
+public class MainController implements ActionListener{
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+
+    }
     
 }
