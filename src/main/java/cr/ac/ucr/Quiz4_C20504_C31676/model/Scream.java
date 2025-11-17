@@ -39,6 +39,8 @@ public class Scream {
         double areaOrigin;
         double areaNew;
         
+        
+        
         return 0;
     }
 
