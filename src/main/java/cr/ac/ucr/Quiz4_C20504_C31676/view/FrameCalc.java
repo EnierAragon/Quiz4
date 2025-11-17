@@ -10,12 +10,12 @@ import java.awt.event.ActionListener;
  *
  * @author hjcar
  */
-public class ScreenMain extends javax.swing.JFrame {
+public class FrameCalc extends javax.swing.JFrame {
     
     /**
      * Creates new form ScreenMain
      */
-    public ScreenMain() {
+    public FrameCalc() {
         initComponents();
     }
     

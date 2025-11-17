@@ -10,13 +10,13 @@ import java.awt.event.ActionListener;
  *
  * @author hjcar
  */
-public class Presets extends javax.swing.JFrame {
+public class FramePresets extends javax.swing.JFrame {
     
 
     /**
      * Creates new form Presets
      */
-    public Presets() {
+    public FramePresets() {
         initComponents();
     }
     

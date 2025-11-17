@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package cr.ac.ucr.Quiz4_C20504_C31676.controller;
+package cr.ac.ucr.Quiz4_C20504_C31676.controller.ControllerVew;
 
-import cr.ac.ucr.Quiz4_C20504_C31676.view.ScreenMain;
+import cr.ac.ucr.Quiz4_C20504_C31676.view.FrameCalc;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -12,17 +12,17 @@ import java.awt.event.ActionListener;
  *
  * @author enier
  */
-public class MainController implements ActionListener {
+public class ControllerCalcScream implements ActionListener {
 
-    ScreenMain screamCalc;
+    FrameCalc screamCalc;
 
-    public MainController() {
+    public ControllerCalcScream() {
         initComponets();
         screamCalc.listen(this);
     }
 
     private void initComponets() {
-        screamCalc = new ScreenMain();
+        screamCalc = new FrameCalc();
     }
 
     @Override
